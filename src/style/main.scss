@@ -2,6 +2,10 @@ html {
     font-size: 62.5%; // 1rem is 10px
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
 *,
 *::after,
 *::before {
@@ -26,3 +30,25 @@ body {
     display: grid;
     justify-items: center;
 }
+
+.navbar{
+    background-color:darkcyan;
+    padding: 1rem, 2rem;
+    border-bottom: 1px solid grey;
+    width: 300px;
+
+}
+
+.flex-container{
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+} 
+
+.sidebar-items{
+    display: flex;
+}
+
