@@ -11,6 +11,18 @@ import loggedOut from './pages/logged-out';
 
 
 export default class App extends Component {
+  getFetchCourses() {
+    this.setState({
+        loading: true
+    }, () => {
+        fetch("http://localhost:3000/courses").then(res => res.json()).then(result => this.setState({
+            loading: false,
+            courses: result
+        })).catch(console.log);
+    });
+}
+
+
   render() {
     return (
       <div className='flex-container'>
@@ -25,10 +37,6 @@ export default class App extends Component {
               <Route path='/logged-out' exact={true} component={loggedOut}/>
             </div>            
           </Router>
-        </div>
-        <div >
-          <h1>LMS Durango Campus</h1>
-          <CampusContainer />
         </div>
       </div>
     );

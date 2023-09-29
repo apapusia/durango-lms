@@ -1,0 +1,31 @@
+{
+  "courses": [{
+      "id": 1,
+      "name": "Matematicas",
+      "hours": "180",
+      "info": "hji glgh khg k yjh jhgluy"
+  }, {
+      "id": 2,
+      "name": "Dibujo tecnico",
+      "hours": "230",
+      "info": "kjhlulylyg yu j i hkh "
+  }, {
+      "id": 3,
+      "name": "Igualdad",
+      "hours": "25",
+      "info": "k ñouhi ujh"
+  }, {
+      "id": 4,
+      "name": "Android basico",
+      "hours": "175",
+      "info": "njkhniuññ kjlmoi jijhi"
+  }],
+  "comments": [{
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+  }],
+  "profile": {
+      "name": "typicode"
+  }
+}

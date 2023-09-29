@@ -1,0 +1,104 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Matematicas",
+      "hours": "180",
+      "info": "hji glgh khg k yjh jhgluy"
+    },
+    {
+      "id": 2,
+      "name": "Dibujo tecnico",
+      "hours": "230",
+      "info": "kjhlulylyg yu j i hkh "
+    },
+    {
+      "id": 3,
+      "name": "Igualdad",
+      "hours": "25",
+      "info": "k ñouhi ujh"
+    },
+    {
+      "id": 4,
+      "name": "Android basico",
+      "hours": "175",
+      "info": "njkhniuññ kjlmoi jijhi"
+    },
+    {
+      "id": 12,
+      "name": "cocina",
+      "hours": "4",
+      "info": "ffdfdfdf"
+    },
+    {
+      "id": 13,
+      "name": "Naukas",
+      "hours": "6",
+      "info": "perfect"
+    },
+    {
+      "id": 14,
+      "name": "Yolanda Busto",
+      "hours": "4",
+      "info": "uuuuu"
+    },
+    {
+      "id": 15,
+      "name": "con las 3 imgs",
+      "hours": "4443",
+      "info": "ggggggg"
+    },
+    {
+      "id": 16,
+      "name": "con las 3 imgs",
+      "hours": "4",
+      "info": "ggggggg"
+    },
+    {
+      "id": 17,
+      "name": "Crondose",
+      "hours": "1000",
+      "info": "fh srh"
+    },
+    {
+      "id": 18,
+      "name": "",
+      "hours": "",
+      "info": ""
+    },
+    {
+      "id": 19,
+      "name": "",
+      "hours": "",
+      "info": ""
+    },
+    {
+      "id": 20,
+      "name": "",
+      "hours": "",
+      "info": ""
+    },
+    {
+      "id": 21,
+      "name": "",
+      "hours": "",
+      "info": ""
+    },
+    {
+      "id": 22,
+      "name": "",
+      "hours": "",
+      "info": ""
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

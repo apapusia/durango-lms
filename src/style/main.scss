@@ -1,4 +1,8 @@
-html {
+@import "./sidebar.scss";
+@import "./courses.scss";
+
+
+/* html {
     font-size: 62.5%; // 1rem is 10px
 }
 
@@ -24,31 +28,8 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-tap-highlight-color: transparent;
 }
-
+ 
 .app {
-    margin-top: 2rem;
-    display: grid;
-    justify-items: center;
+    margin-top: 1rem;
 }
-
-.navbar{
-    background-color:darkcyan;
-    padding: 1rem, 2rem;
-    border-bottom: 1px solid grey;
-    width: 300px;
-
-}
-
-.flex-container{
-    display: grid;
-    grid-template-columns: auto auto ;
-}
-.sidebar{
-    display: flex;
-    flex-direction: column;
-} 
-
-.sidebar-items{
-    display: flex;
-}
-
+*/
